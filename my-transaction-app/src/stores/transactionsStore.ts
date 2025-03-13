@@ -40,9 +40,7 @@ export const useTransactionsStore = defineStore('transactions', {
     async fetchTransactions() {
       this.loading = true;
       try {
-        this.transactions = await getTransactions();
-        console.log('this.transactions', this.transactions);
-        
+        this.transactions = await getTransactions();        
         this.filteredTransactions = [...this.transactions];
         this.loading = false;
         this.applyFilters();
