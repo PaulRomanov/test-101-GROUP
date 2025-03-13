@@ -12,5 +12,131 @@
     "type": "expense",
     "amount": 5000,
     "description": "Оплата подрядчику"
+  },
+  {
+    "id": 3,
+    "date": "2024-02-03",
+    "type": "income",
+    "amount": 8500,
+    "description": "Консультация клиента"
+  },
+  {
+    "id": 4,
+    "date": "2024-02-05",
+    "type": "expense",
+    "amount": 1200,
+    "description": "Оплата хостинга"
+  },
+  {
+    "id": 5,
+    "date": "2024-02-08",
+    "type": "income",
+    "amount": 12000,
+    "description": "Продление контракта"
+  },
+  {
+    "id": 6,
+    "date": "2024-02-10",
+    "type": "expense",
+    "amount": 3500,
+    "description": "Аренда офиса"
+  },
+  {
+    "id": 7,
+    "date": "2024-02-12",
+    "type": "income",
+    "amount": 9000,
+    "description": "Новый клиент"
+  },
+  {
+    "id": 8,
+    "date": "2024-02-15",
+    "type": "expense",
+    "amount": 2800,
+    "description": "Покупка программного обеспечения"
+  },
+  {
+    "id": 9,
+    "date": "2024-02-18",
+    "type": "income",
+    "amount": 18000,
+    "description": "Завершение крупного проекта"
+  },
+  {
+    "id": 10,
+    "date": "2024-02-20",
+    "type": "expense",
+    "amount": 1500,
+    "description": "Коммунальные платежи"
+  },
+  {
+    "id": 11,
+    "date": "2024-02-22",
+    "type": "income",
+    "amount": 7500,
+    "description": "Техническая поддержка"
+  },
+  {
+    "id": 12,
+    "date": "2024-02-24",
+    "type": "expense",
+    "amount": 4200,
+    "description": "Рекламная кампания"
+  },
+  {
+    "id": 13,
+    "date": "2024-02-25",
+    "type": "income",
+    "amount": 13500,
+    "description": "Разработка мобильного приложения"
+  },
+  {
+    "id": 14,
+    "date": "2024-02-27",
+    "type": "expense",
+    "amount": 3800,
+    "description": "Зарплата сотрудникам"
+  },
+  {
+    "id": 15,
+    "date": "2024-02-28",
+    "type": "income",
+    "amount": 6000,
+    "description": "Продажа шаблона сайта"
+  },
+  {
+    "id": 16,
+    "date": "2024-03-01",
+    "type": "expense",
+    "amount": 2300,
+    "description": "Налоговые выплаты"
+  },
+  {
+    "id": 17,
+    "date": "2024-03-03",
+    "type": "income",
+    "amount": 11000,
+    "description": "Корпоративный тренинг"
+  },
+  {
+    "id": 18,
+    "date": "2024-03-05",
+    "type": "expense",
+    "amount": 1800,
+    "description": "Оплата интернета"
+  },
+  {
+    "id": 19,
+    "date": "2024-03-07",
+    "type": "income",
+    "amount": 14500,
+    "description": "Создание API"
+  },
+  {
+    "id": 20,
+    "date": "2024-03-10",
+    "type": "expense",
+    "amount": 4500,
+    "description": "Покупка нового оборудования"
   }
 ]
