@@ -1,0 +1,40 @@
+@import '@/assets/styles/_variables.scss';
+
+body {
+  background-color: $color-primary-bg;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-history {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.transaction-history__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $color-font-primary;
+}
+
+.transaction-history__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction-history__sidebar {
+  margin-bottom: 20px;
+}
+
+.transaction-history__main {
+  flex-grow: 1;
+}

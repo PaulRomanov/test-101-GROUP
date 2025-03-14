@@ -84,7 +84,7 @@ export const useTransactionsStore = defineStore('transactions', {
     },
   },
   getters: {
-    paginatedTransactions: (state) => {
+    paginatedTransactions: (state): TransactionType[] => {
       const startIndex = (state.currentPage - 1) * 10;
       const endIndex = startIndex + 10;
       return state.filteredTransactions.slice(startIndex, endIndex);

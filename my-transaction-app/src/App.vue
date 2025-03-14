@@ -1,9 +1,19 @@
 <template>
-  <div class="container mx-auto p-4">
-    <TransactionFilters />
-    <TransactionSort />
-    <TransactionTable :transactions="transactionsStore.paginatedTransactions" />
-    <TransactionPagination />
+  <Header />
+  <div class="container">
+    <div class="transaction-history">
+      <h1 class="transaction-history__title">Transaction History</h1>
+      <div class="transaction-history__content">
+        <div class="transaction-history__sidebar">
+          <TransactionFilters />
+          <TransactionSort />
+        </div>
+        <div class="transaction-history__main">
+          <TransactionTable :transactions="transactionsStore.paginatedTransactions" />
+          <TransactionPagination />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -14,6 +24,7 @@ import TransactionTable from '@/components/TransactionTable.vue';
 import TransactionFilters from '@/components/TransactionFilters.vue';
 import TransactionPagination from '@/components/TransactionPagination.vue';
 import TransactionSort from '@/components/TransactionSort.vue';
+import Header from '@/components/Header.vue'; 
 
 const transactionsStore = useTransactionsStore();
 
